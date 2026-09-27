@@ -1,0 +1,99 @@
+{
+  "checkedAt": "2026-09-27T07:11:24.256Z",
+  "browser": "140.0.7339.186",
+  "mode": "Production export at /preview/ with mocked RPC and EIP-1193 wallet; no real transactions",
+  "results": [
+    {
+      "name": "production export loads at a gateway subpath; complete 24-hour range excludes old events",
+      "status": "passed"
+    },
+    {
+      "name": "desktop, intermediate, mobile and 320px reflow; no horizontal overflow",
+      "status": "passed"
+    },
+    {
+      "name": "automated accessibility: names, structure and rendered contrast",
+      "status": "passed",
+      "detail": {
+        "violations": 0,
+        "passingRules": 30
+      }
+    },
+    {
+      "name": "keyboard skip link and visible focus",
+      "status": "passed"
+    },
+    {
+      "name": "connect wallet and quote a buy with no approval",
+      "status": "passed"
+    },
+    {
+      "name": "expired quotes remove confirmation until refreshed",
+      "status": "passed"
+    },
+    {
+      "name": "buy simulation precedes signing; calldata enforces minimum and native value",
+      "status": "passed"
+    },
+    {
+      "name": "sell uses explicit token approval, Permit2 permission, then router swap",
+      "status": "passed"
+    },
+    {
+      "name": "invalid precision and excess balance produce recoverable errors",
+      "status": "passed"
+    },
+    {
+      "name": "wallet signing rejection is shown without broadcasting",
+      "status": "passed"
+    },
+    {
+      "name": "reverting swap simulation blocks wallet signing",
+      "status": "passed"
+    },
+    {
+      "name": "editing amount invalidates quote; delayed response cannot restore it",
+      "status": "passed"
+    },
+    {
+      "name": "unknown chain triggers exact add-chain parameters and a second switch",
+      "status": "passed"
+    },
+    {
+      "name": "missing browser wallet and connection rejection are actionable",
+      "status": "passed"
+    },
+    {
+      "name": "missing router code keeps actions disabled",
+      "status": "passed"
+    },
+    {
+      "name": "empty history and zero liquidity show unavailable yield without dividing by zero",
+      "status": "passed"
+    },
+    {
+      "name": "failed log ranges never display partial 24-hour totals",
+      "status": "passed"
+    },
+    {
+      "name": "uninitialized pool blocks quotes while zero current liquidity alone does not",
+      "status": "passed"
+    },
+    {
+      "name": "ABI tampering fails closed",
+      "status": "passed"
+    },
+    {
+      "name": "primary buy flow completes using only the keyboard",
+      "status": "passed"
+    },
+    {
+      "name": "no browser console errors or failed production resources",
+      "status": "passed"
+    }
+  ],
+  "errors": [],
+  "failedResources": [],
+  "sentTransactions": 5,
+  "rpcRequests": 693
+}

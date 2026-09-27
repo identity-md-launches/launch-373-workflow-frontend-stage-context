@@ -1,0 +1,202 @@
+{
+  "checkedAt": "2026-09-27T07:04:23.505Z",
+  "mode": "Unmocked production export with public RPC, no wallet, no transactions",
+  "status": "passed",
+  "summary": [
+    "Live reads verified · block 11,791,716 · 7:04:12 AM",
+    "0ETHNative currency donated0RBTERebate tokens donated",
+    "0 donations · complete through block 11,791,716",
+    "—ETH per liquidity unit—RBTE per liquidity unit"
+  ],
+  "contrast": [
+    {
+      "name": "primary",
+      "color": "rgb(252, 252, 249)",
+      "background": "rgb(43, 75, 55)",
+      "ratio": 9.44
+    },
+    {
+      "name": "body",
+      "color": "rgb(92, 100, 89)",
+      "background": "rgb(245, 244, 238)",
+      "ratio": 5.57
+    },
+    {
+      "name": "surface caption",
+      "color": "rgb(92, 100, 89)",
+      "background": "rgb(252, 252, 249)",
+      "ratio": 5.97
+    },
+    {
+      "name": "tinted caption",
+      "color": "rgb(92, 100, 89)",
+      "background": "rgb(232, 238, 225)",
+      "ratio": 5.19
+    },
+    {
+      "name": "input",
+      "color": "rgb(37, 49, 41)",
+      "background": "rgb(245, 244, 238)",
+      "ratio": 12.3
+    }
+  ],
+  "errors": [],
+  "resources": [
+    {
+      "url": "[local-preview]/preview/",
+      "status": 200
+    },
+    {
+      "url": "[local-preview]/preview/assets/index-CxRmcY_9.css",
+      "status": 200
+    },
+    {
+      "url": "[local-preview]/preview/assets/index-TXjXJiEz.js",
+      "status": 200
+    },
+    {
+      "url": "[local-preview]/preview/imd-deployment.json",
+      "status": 200
+    },
+    {
+      "url": "[local-preview]/preview/abi/RBTE.json",
+      "status": 200
+    },
+    {
+      "url": "[local-preview]/preview/abi/LPDonateHook.json",
+      "status": 200
+    },
+    {
+      "url": "[local-preview]/preview/abi/StateView.json",
+      "status": 200
+    },
+    {
+      "url": "[local-preview]/preview/abi/Quoter.json",
+      "status": 200
+    },
+    {
+      "url": "[local-preview]/preview/abi/UniversalRouter.json",
+      "status": 200
+    },
+    {
+      "url": "[local-preview]/preview/abi/Permit2.json",
+      "status": 200
+    },
+    {
+      "url": "https://ethereum-sepolia-rpc.publicnode.com/",
+      "status": 200
+    },
+    {
+      "url": "https://ethereum-sepolia-rpc.publicnode.com/",
+      "status": 200
+    },
+    {
+      "url": "https://ethereum-sepolia-rpc.publicnode.com/",
+      "status": 200
+    },
+    {
+      "url": "https://ethereum-sepolia-rpc.publicnode.com/",
+      "status": 200
+    },
+    {
+      "url": "https://ethereum-sepolia-rpc.publicnode.com/",
+      "status": 200
+    },
+    {
+      "url": "https://ethereum-sepolia-rpc.publicnode.com/",
+      "status": 200
+    },
+    {
+      "url": "https://ethereum-sepolia-rpc.publicnode.com/",
+      "status": 200
+    },
+    {
+      "url": "https://ethereum-sepolia-rpc.publicnode.com/",
+      "status": 200
+    },
+    {
+      "url": "https://ethereum-sepolia-rpc.publicnode.com/",
+      "status": 200
+    },
+    {
+      "url": "https://ethereum-sepolia-rpc.publicnode.com/",
+      "status": 200
+    },
+    {
+      "url": "https://ethereum-sepolia-rpc.publicnode.com/",
+      "status": 200
+    },
+    {
+      "url": "https://ethereum-sepolia-rpc.publicnode.com/",
+      "status": 200
+    },
+    {
+      "url": "https://ethereum-sepolia-rpc.publicnode.com/",
+      "status": 200
+    },
+    {
+      "url": "https://ethereum-sepolia-rpc.publicnode.com/",
+      "status": 200
+    },
+    {
+      "url": "https://ethereum-sepolia-rpc.publicnode.com/",
+      "status": 200
+    },
+    {
+      "url": "https://ethereum-sepolia-rpc.publicnode.com/",
+      "status": 200
+    },
+    {
+      "url": "https://ethereum-sepolia-rpc.publicnode.com/",
+      "status": 200
+    },
+    {
+      "url": "https://ethereum-sepolia-rpc.publicnode.com/",
+      "status": 200
+    },
+    {
+      "url": "https://ethereum-sepolia-rpc.publicnode.com/",
+      "status": 200
+    },
+    {
+      "url": "https://ethereum-sepolia-rpc.publicnode.com/",
+      "status": 200
+    },
+    {
+      "url": "https://ethereum-sepolia-rpc.publicnode.com/",
+      "status": 200
+    },
+    {
+      "url": "https://ethereum-sepolia-rpc.publicnode.com/",
+      "status": 200
+    },
+    {
+      "url": "https://ethereum-sepolia-rpc.publicnode.com/",
+      "status": 200
+    },
+    {
+      "url": "https://ethereum-sepolia-rpc.publicnode.com/",
+      "status": 200
+    },
+    {
+      "url": "https://ethereum-sepolia-rpc.publicnode.com/",
+      "status": 200
+    },
+    {
+      "url": "https://ethereum-sepolia-rpc.publicnode.com/",
+      "status": 200
+    },
+    {
+      "url": "https://ethereum-sepolia-rpc.publicnode.com/",
+      "status": 200
+    },
+    {
+      "url": "https://ethereum-sepolia-rpc.publicnode.com/",
+      "status": 200
+    },
+    {
+      "url": "https://ethereum-sepolia-rpc.publicnode.com/",
+      "status": 200
+    }
+  ]
+}

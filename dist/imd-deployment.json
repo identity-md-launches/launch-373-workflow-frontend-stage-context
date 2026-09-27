@@ -1,0 +1,140 @@
+{
+  "version": 1,
+  "launchId": "89d0c5ad-35f2-4d97-9dfc-ab8059926c84",
+  "chainId": 11155111,
+  "sourceCommit": "b840e7719a68c0aa463e798934a4ff6f8f8f92ba",
+  "attestationHash": "fe1459e051a226689b9b38aa9db24d2e72a71ce2031f8847acb0a3c8a765b23e",
+  "contracts": [
+    {
+      "name": "RBTE",
+      "address": "0x18e5b84e2bf2427b4c236e639527af3904bc4689",
+      "abiHash": "38880b8e56d42ce900f744a7908c7139632a49f1c3f33385c64ceaed29d37bee",
+      "abiPath": "abi/RBTE.json"
+    },
+    {
+      "name": "LPDonateHook",
+      "address": "0xd639de70e49fd58020f0bfadb5864e340cc9c044",
+      "abiHash": "950542000c0b9393ece805bb474b1ca49ca78700a171c35877420aa82e7c2893",
+      "abiPath": "abi/LPDonateHook.json"
+    }
+  ],
+  "assets": [
+    {
+      "path": "abi/LPDonateHook.json",
+      "sha256": "5b5da6a27c18c7389bfd223042d8dc7d0fc43e85db30d1539ba04a499b856562"
+    },
+    {
+      "path": "abi/Permit2.json",
+      "sha256": "d4bcbe027f32a4ebf9a04dc122c332155bdb166d0f80278869d121dd30f11731"
+    },
+    {
+      "path": "abi/Quoter.json",
+      "sha256": "7f7fc4ea986a47c4fa51210389fe1d8799df5c506433644676d1b34e29256653"
+    },
+    {
+      "path": "abi/RBTE.json",
+      "sha256": "9578fcb499b4ba5fac51462a67a2654d9f803e0ea3af9bdb19130ff695808542"
+    },
+    {
+      "path": "abi/StateView.json",
+      "sha256": "e800cd8e81c7435f71fa438508cd48c6f6ea951d2d2968c05a58f6c63c609915"
+    },
+    {
+      "path": "abi/UniversalRouter.json",
+      "sha256": "45754584cb98264c7205da7e6a521549cfa6d6bc1fbb265d28c8a9e992ae7a98"
+    },
+    {
+      "path": "assets/ccip-KI6llzlE.js",
+      "sha256": "7fb1dc94df8b66cacd1fb3ca37cd3048ba1b5e03db4f6f774456f42cd9adaf4e"
+    },
+    {
+      "path": "assets/index-CxRmcY_9.css",
+      "sha256": "a3265736c3592e0cdf80d39318d6dd5dcd6a1e898842a975718acb7ac94422e3"
+    },
+    {
+      "path": "assets/index-TXjXJiEz.js",
+      "sha256": "820107dd319b9e6d73f8ad8dbbf2cb22193f89804fe15269a694a5c5f3726598"
+    },
+    {
+      "path": "index.html",
+      "sha256": "8c5290bfdac470a68b0cc358950dbd9ac3cd4a47d5f17f20579ec1a694c42ff3"
+    }
+  ],
+  "network": {
+    "chainId": 11155111,
+    "name": "Sepolia",
+    "testnet": true,
+    "rpcUrls": [
+      "https://ethereum-sepolia-rpc.publicnode.com",
+      "https://rpc.sepolia.ethpandaops.io",
+      "https://sepolia.rpc.sentio.xyz"
+    ],
+    "explorer": "https://sepolia.etherscan.io",
+    "nativeCurrency": {
+      "name": "Sepolia Ether",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "faucets": [
+      "https://cloud.google.com/application/web3/faucet/ethereum/sepolia",
+      "https://www.alchemy.com/faucets/ethereum-sepolia"
+    ],
+    "uniswapV4": {
+      "poolManager": "0xe03a1074c86cfedd5c142c4f04f1a1536e203543",
+      "universalRouter": "0x3a9d48ab9751398bbfa63ad67599bb04e4bdf98b",
+      "quoter": "0x61b3f2011a92d183c7dbadbda940a7555ccf9227",
+      "stateView": "0xe1dd9c3fa50edb962e442f60dfbc432e24537e4c",
+      "positionManager": "0x429ba70129df741b2ca2a85bc3a2a3328e5c09b4",
+      "permit2": "0x000000000022d473030f116ddee9f6b43ac78ba3"
+    }
+  },
+  "walletAddChain": {
+    "chainId": "0xaa36a7",
+    "chainName": "Sepolia",
+    "rpcUrls": [
+      "https://ethereum-sepolia-rpc.publicnode.com",
+      "https://rpc.sepolia.ethpandaops.io",
+      "https://sepolia.rpc.sentio.xyz"
+    ],
+    "nativeCurrency": {
+      "name": "Sepolia Ether",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "blockExplorerUrls": [
+      "https://sepolia.etherscan.io"
+    ]
+  },
+  "pool": {
+    "fee": 3000,
+    "tickSpacing": 60,
+    "initialPrice": "792281625142643375935439503360000",
+    "pairedCurrency": "0x0000000000000000000000000000000000000000"
+  },
+  "token": {
+    "name": "Rebate",
+    "symbol": "RBTE",
+    "contract": "RBTE",
+    "decimals": 18
+  },
+  "hookContract": "LPDonateHook",
+  "deploymentBlock": 11791446,
+  "protocolInterfaces": {
+    "StateView": {
+      "abiPath": "abi/StateView.json",
+      "abiHash": "0b4c2ec9e9f9cbf1f44823434114ef63dcaf217070e48d02d9cc5230d9fd5b99"
+    },
+    "Quoter": {
+      "abiPath": "abi/Quoter.json",
+      "abiHash": "f459ca22bede86d490ce9ad2e24c6b0e14604ba706ec2e1216d11298180de2b1"
+    },
+    "UniversalRouter": {
+      "abiPath": "abi/UniversalRouter.json",
+      "abiHash": "d36de8b487f550d18ba9b3586c2b70cd1deb66bb281bea6dbbaedc94eea69cbe"
+    },
+    "Permit2": {
+      "abiPath": "abi/Permit2.json",
+      "abiHash": "03263b71de03a3528aa8c742b0d8d34ccf80cc0e9dafad64e8672b2d4e6ea784"
+    }
+  }
+}

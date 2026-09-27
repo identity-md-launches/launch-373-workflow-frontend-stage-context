@@ -1,0 +1,92 @@
+{
+  "checkedAt": "2026-09-27T06:58:19.364Z",
+  "mode": "Read-only public RPC; no transactions broadcast",
+  "sourceCommit": "b840e7719a68c0aa463e798934a4ff6f8f8f92ba",
+  "checks": {},
+  "deploymentCheck": "passed: chain ID, nonempty code, hook manager",
+  "code": [
+    {
+      "name": "RBTE",
+      "address": "0x18e5b84e2bf2427b4c236e639527af3904bc4689",
+      "bytes": 1723,
+      "keccak256": "0x4b31f2c8acd7927be8cd8343fab9dd61cad18478e5e65d8113e54186ea32a88e"
+    },
+    {
+      "name": "LPDonateHook",
+      "address": "0xd639de70e49fd58020f0bfadb5864e340cc9c044",
+      "bytes": 3854,
+      "keccak256": "0x36f289de380ce885fbda53f6e8d724b0d09b87eff502313d0a3dde50b17cc24b"
+    },
+    {
+      "name": "poolManager",
+      "address": "0xe03a1074c86cfedd5c142c4f04f1a1536e203543",
+      "bytes": 24009,
+      "keccak256": "0x09930125a49f5b95caf8052991cc14d1240dca8b43f42b899115b86867e4bce1"
+    },
+    {
+      "name": "universalRouter",
+      "address": "0x3a9d48ab9751398bbfa63ad67599bb04e4bdf98b",
+      "bytes": 19540,
+      "keccak256": "0x14f7c9253a5406bafa90cb512f4a2db2a10513886603e7a9b4a2e72329e944f4"
+    },
+    {
+      "name": "quoter",
+      "address": "0x61b3f2011a92d183c7dbadbda940a7555ccf9227",
+      "bytes": 5820,
+      "keccak256": "0xf481a751ac453d40c46d12360b85b05472028c1b113ab63749d69a5f8b0e47d1"
+    },
+    {
+      "name": "stateView",
+      "address": "0xe1dd9c3fa50edb962e442f60dfbc432e24537e4c",
+      "bytes": 3531,
+      "keccak256": "0xaaed3db8eb8ebde8014ce4c8a3938496687f4c6374e17a7d735288f6c65ceb9e"
+    },
+    {
+      "name": "positionManager",
+      "address": "0x429ba70129df741b2ca2a85bc3a2a3328e5c09b4",
+      "bytes": 23877,
+      "keccak256": "0xcffd746f78c2b50aafd19076bbe9c48f14446e5248fc5d76b9b4896610e51aab"
+    },
+    {
+      "name": "permit2",
+      "address": "0x000000000022d473030f116ddee9f6b43ac78ba3",
+      "bytes": 9152,
+      "keccak256": "0x96d9f5c3f0fb0423426b7f970186235b7347027f4e5c19c40c412b7d97fc3751"
+    }
+  ],
+  "snapshot": {
+    "block": "11791686",
+    "blockHash": "0xa5f022ebc9b190d95b2802694f1dd98b549c88faea2aa69602806690db535991",
+    "timestamp": "1790492292",
+    "receivedAt": 1790492300584,
+    "sqrtPrice": "560227709747861399187319382274582",
+    "tick": 177284,
+    "protocolFee": 0,
+    "lpFee": 3000,
+    "liquidity": "0",
+    "total0": "0",
+    "total1": "0",
+    "decimals": 18,
+    "symbol": "RBTE",
+    "supply": "1000000000000000000000000000",
+    "donationBps": "50"
+  },
+  "poolId": "0x5be0579f65689847a5faf5d8219395f4dfc85b312979d1cfd7b3d4c94525adb3",
+  "history": {
+    "start": "1790405892",
+    "end": "1790492292",
+    "fromBlock": "11791446",
+    "toBlock": "11791686",
+    "events": [],
+    "sum0": "0",
+    "sum1": "0"
+  },
+  "readOnlyBuyQuote": {
+    "amountInWei": "100000000000",
+    "result": [
+      "4938201277706176013",
+      "146361"
+    ]
+  },
+  "rpcUsed": "https://ethereum-sepolia-rpc.publicnode.com"
+}

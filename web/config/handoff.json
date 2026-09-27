@@ -1,0 +1,53 @@
+{
+  "chainId": 11155111,
+  "repoUrl": "https://github.com/identity-md-launches/launch-291-lpdonatehook",
+  "version": 1,
+  "launchId": "89d0c5ad-35f2-4d97-9dfc-ab8059926c84",
+  "manifest": {
+    "hook": {
+      "contract": "LPDonateHook",
+      "permissions": [
+        "afterSwap",
+        "afterSwapReturnDelta"
+      ],
+      "constructorArgs": [
+        "0xE03A1074c86CFeDd5C142C4F04F1a1536e203543"
+      ]
+    },
+    "kind": "univ4_hook",
+    "pool": {
+      "fee": 3000,
+      "tickSpacing": 60,
+      "initialPrice": "792281625142643375935439503360000",
+      "pairedCurrency": "0x0000000000000000000000000000000000000000"
+    },
+    "notes": "Technical description of src/LPDonateHook.sol and src/RBTE.sol for the approved Sepolia launch. The hook's sole constructor argument is the specified Sepolia PoolManager; RBTE has a zero-argument constructor. The pool uses native ETH as currency0 and deployed RBTE as currency1. initialPrice is decimal sqrtPriceX96 = 10000 * 2^96, corresponding to 100,000,000 RBTE per ETH with both currencies at 18 decimals. This adopts the existing test/helpers/LaunchParameters.sol rehearsal price; the workflow supplies no numerical price. The rehearsal initializes above its RBTE-only position's upper tick, seeds without ETH, and exercises the first buy. Actual factory seed parameters must be reconciled with this price separately. Only afterSwap and afterSwapReturnDelta are enabled; all other permissions are false. The constructor validates address permission bits 0x0044 under mask 0x3fff, requiring a matching CREATE2 address. All callbacks require the immutable PoolManager. On native-ETH pools, afterSwap donates floor(abs(unspecified core swap delta) * 50 / 10000) through PoolManager.donate and returns an equal positive unspecified delta, cancelling the hook's debt within the swap without taking funds or minting claims. The unspecified leg is output for exact-input swaps and input for exact-output swaps: ETH for exact-input sells and exact-output buys, RBTE otherwise. Donations are skipped for non-native currency0, rounded-zero amounts, zero post-swap in-range liquidity, or an adjusted trader delta below int128.min. Donations benefit LPs in range at the post-swap tick, including same-block JIT liquidity. Donated(poolId, currency, amount) and totalDonated(poolId, currency) expose successful donations, isolated per pool and currency. sender and unauthenticated hookData are ignored. Neither contract has an administrative or upgrade interface. Exported ABIs are docs/abi/LPDonateHook.json and docs/abi/RBTE.json. Deployment policy and signed artifact linkage belong to services; this manifest does not assert independent review, attestation, admission or deployment.",
+    "token": {
+      "name": "Rebate",
+      "symbol": "RBTE",
+      "contract": "RBTE",
+      "decimals": 18
+    }
+  },
+  "contracts": [
+    {
+      "name": "RBTE",
+      "txHash": "0x17cce593c199a84b72ac07a6ca327655fe6cfaade1fd9972829626b5da9addb2",
+      "abiHash": "38880b8e56d42ce900f744a7908c7139632a49f1c3f33385c64ceaed29d37bee",
+      "address": "0x18e5b84e2bf2427b4c236e639527af3904bc4689",
+      "blockNumber": 11791446,
+      "creationCodeHash": "30b09b995b7ec1802b195e4f5a7796cf90a1863ed340c157b1f347c3a48daa34"
+    },
+    {
+      "name": "LPDonateHook",
+      "txHash": "0x17cce593c199a84b72ac07a6ca327655fe6cfaade1fd9972829626b5da9addb2",
+      "abiHash": "950542000c0b9393ece805bb474b1ca49ca78700a171c35877420aa82e7c2893",
+      "address": "0xd639de70e49fd58020f0bfadb5864e340cc9c044",
+      "blockNumber": 11791446,
+      "creationCodeHash": "96f79993c4eec24ac6a89382cb19e62d1a5643e86afc130e9c876956adbe39d5"
+    }
+  ],
+  "sourceCommit": "b840e7719a68c0aa463e798934a4ff6f8f8f92ba",
+  "abiInstructions": "Build ABIs from this exact source commit; compare canonicalKeccak(abi) with abiHash. Verify deployed code on the stated chain before enabling transactions.",
+  "attestationHash": "fe1459e051a226689b9b38aa9db24d2e72a71ce2031f8847acb0a3c8a765b23e"
+}
